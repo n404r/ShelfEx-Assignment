@@ -1,0 +1,24 @@
+# Core dependencies
+streamlit
+transformers
+torch
+nltk
+numpy
+
+# File handling
+PyPDF2
+python-docx
+
+# Model acceleration
+accelerate
+sentencepiece
+protobuf
+
+# Export formats
+pandas
+
+
+# Optional GPU support
+# Install if CUDA available:
+# cupy-cuda11x
+# faiss-gpu
