@@ -142,7 +142,7 @@ MEMORY_FRACTION = 0.9
 * **File Formats**: Supports .txt, .pdf and .docx uploads.
 * **Subject Selection**: Optional subject specification helps tailor flashcards to specific domains
 
-### 4. Output Expectations
+### Output Expectations
 
 #### Flashcards:
 
