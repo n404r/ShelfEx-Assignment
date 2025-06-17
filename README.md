@@ -1,8 +1,8 @@
 # ⚡ LLM-powered Flashcard Generator
 
 LLM-powered Flashcard Generator tool that transforms educational content into effective question-answer flashcards. It processes text or documents to create categorized, subject-specific flashcards with configurable difficulty levels. Built with Streamlit and optimized for GPU acceleration.
-
 ---
+Streamlit URL: https://nischay-shelfex-flashcard.streamlit.app/
 
 ## 🎯Objective
 
@@ -266,10 +266,6 @@ MEMORY_FRACTION = 0.9
   * Sufficient VRAM
   * Model cache integrity
 
-### Export Errors
-
-* Validate:
-
 ### Maintenance
 
 * Regularly update:
@@ -279,6 +275,10 @@ MEMORY_FRACTION = 0.9
   * Prompt.py templates and logic
 
 ---
+
+## Demo Video
+
+https://github.com/user-attachments/assets/4911d0f7-ed32-4721-ad09-26909b745f1f
 
 
 ## 👨‍💻 Author
