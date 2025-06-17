@@ -20,13 +20,13 @@ The system meets all core requirements and implements several bonus functionalit
 
 ## 🚀 Quick Start
 
-### 1. Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Launch the App
+### Launch the App
 
 ```bash
 streamlit run app.py
@@ -136,8 +136,13 @@ MEMORY_FRACTION = 0.9
 * **Quality issues**: Try a different difficulty level or subject
 
 ---
+### Input Expectations
 
-### 3. Output Expectations
+* **Text Content**: Educational material from textbooks, lecture notes, articles, or other learning resources
+* **File Formats**: Supports .txt, .pdf and .docx uploads.
+* **Subject Selection**: Optional subject specification helps tailor flashcards to specific domains
+
+### 4. Output Expectations
 
 #### Flashcards:
 
