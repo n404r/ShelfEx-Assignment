@@ -3,7 +3,7 @@ MODEL_NAME = "google/flan-t5-large"
 
 # front end settings
 DIFFICULTY_LEVELS = ["Easy", "Medium", "Hard"]
-DEFAULT_DIFFICULTY = "Medium"
+DEFAULT_DIFFICULTY = "Easy"
 SUBJECTS = ["General", "Biology", "Physics", "Computer Science"]
 DEFAULT_SUBJECT = "General"
 
