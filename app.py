@@ -11,7 +11,7 @@ logging.basicConfig(
     level=logging.ERROR,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('flashmind.log'),
+        logging.FileHandler('app.log'),
         logging.StreamHandler()
     ]
 )
@@ -71,7 +71,7 @@ def update_flashcard(card_id, field, new_value):
 
 def main():
     st.set_page_config(
-        page_title="FlashMind",
+        page_title="AI FlashCard Generator",
         page_icon="📚",
         layout="wide",
         initial_sidebar_state="expanded"
