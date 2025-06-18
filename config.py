@@ -1,5 +1,5 @@
 
-MODEL_NAME = "google/flan-t5-large"
+MODEL_NAME = "google/flan-t5-base"
 
 # front end settings
 DIFFICULTY_LEVELS = ["Easy", "Medium", "Hard"]
