@@ -17,6 +17,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+st.set_option("server.runOnSave", False)
+
 def initialize_generator():
     if 'generator' not in st.session_state:
         try:
