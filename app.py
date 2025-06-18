@@ -5,7 +5,7 @@ import json
 from services.parser import parse_input
 from services.export_utils import export_flashcards
 import time
-from config import SUBJECTS, DIFFICULTY_LEVELS, DEFAULT_DIFFICULTY, DEFAULT_SUBJECT, EXPORT_FORMATS, DEFAULT_EXPORT_FORMAT
+from config import SUBJECTS, DIFFICULTY_LEVELS, DEFAULT_DIFFICULTY, DEFAULT_SUBJECT, EXPORT_FORMATS, DEFAULT_EXPORT_FORMAT, MODEL_NAME
 
 logging.basicConfig(
     level=logging.ERROR,
@@ -80,6 +80,7 @@ def main():
     
     st.title("AI Flashcard Generator")
     st.markdown("Made with ❤️ by Nischay Raj")
+    st.markdown(f"`` Current Model: {MODEL_NAME} ``")
 
     
     try:
