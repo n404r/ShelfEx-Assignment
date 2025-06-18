@@ -1,5 +1,5 @@
 
-MODEL_NAME = "google/flan-t5-base"
+MODEL_NAME = "mistralai/Mistral-7B-v0.1"
 
 # front end settings
 DIFFICULTY_LEVELS = ["Easy", "Medium", "Hard"]
